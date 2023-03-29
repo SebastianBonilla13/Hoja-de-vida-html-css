@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  .contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+  }
+</style>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            silver: '#B5A7A4',
+            clifford: '#da373d',
+            amarillo: "#EBCF06",
+            /* #EED521
+               #F1C40F
+            grisC: "#9B9A99",
+            grisO: "#686362",
+            */
+            grisO: "#4a4a4a",
+            grisC: "#858585"
+          }
+        }
+      }
+    }
+
+
+  </script>
+  
+
+  
+</head>
+<body>
+
+
+  <div class="bg-auto bg-gradient-to-l from-grisO to-black">
+
+    <div class="px-48 py-5 ">
+      <h1 class="flex justify-center text-4xl font-bold tracking-widest text-amarillo none bg-grisO">
+        HOJA DE VIDA
+      </h1>
+  
+      <div class="px-5 py-5 container bg-grisC">
+        <div class="contenedor">
+          
+          <div>
+            <p>
+              <div class="flex items-center justify-center "><img width="220px"; alt="foto" src= "yo.jpg" class="rounded-full border-solid border-4 border-grisO "/> 
+              </div>
+            </p>
+          </div>
+
+          <div class="px-5 py-12 container bg-grisC">
+            <p>
+            </span> <span class="font-medium text-gray-800 text-lg">Persona amable, responsable, creativa y con alta disposición de aprender. Estudiante de pregrado 
+              de Ingeniería de Sistemas en la Universidad del Cauca. Facilidad en planteamiento de resolución de problemas, identificación, proposición e implementación. 
+            </span>
+            </p>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="px-48 py-5 ">
+      <h1 class="flex justify-center text-2xl font-bold tracking-widest text-amarillo none bg-grisO">
+        DATOS PERSONALES
+      </h1>
+  
+      <div class="px-8 py-5 container bg-grisC">
+        <p>
+          <span class="font-bold text-amarillo text-lg">NOMBRES Y APELLIDOS:</span> <span class="font-medium text-gray-800 text-lg">Juan Sebastián Bonilla Llantén</span> <br>
+          <span class="font-bold text-amarillo text-lg">LUGAR Y FECHA DE NACIMIEINTO:</span> <span class="font-medium text-gray-800 text-lg">13 de Octubre del 2000</span> <br>
+          <span class="font-bold text-amarillo text-lg">CÉDULA DE CIUDADANÍA:</span> <span class="font-medium text-gray-800 text-lg">1193385477 de Pasto(Nariño)</span> <br>
+          <span class="font-bold text-amarillo text-lg">SEXO:</span> <span class="font-medium text-gray-800 text-lg">Masculino</span> <br>
+          <span class="font-bold text-amarillo text-lg">ESTADO CIVIL:</span> <span class="font-medium text-gray-800 text-lg">Soltero</span> <br>
+          <span class="font-bold text-amarillo text-lg">DIRECCIÓN:</span> <span class="font-medium text-gray-800 text-lg">Calle 1B #43-70. Popayán, Colombia.</span> <br>
+        </p>
+      </div>
+    </div>
+  
+    <div class="px-48 py-0.5 ">
+      <h1 class="flex justify-center text-2xl font-bold tracking-widest text-amarillo none bg-grisO">
+        INFORMACIÓN ACADÉMICA
+      </h1>
+  
+      <div class="px-8 py-5 container bg-grisC">
+        <p>
+          <span class="font-bold text-amarillo text-lg">UNIVERSIDAD DEL CAUCA:</span> <span class="font-medium text-gray-800 text-lg">Pregrado en curso</span> <br>
+          <span class="font-bold text-amarillo text-lg">COLEGIO JOSÉ EUSEBIO CARO:</span> <span class="font-medium text-gray-800 text-lg">Bachilleratio acadméico 2017</span> <br>
+          <span class="font-medium text-gray-800 text-lg">Conocimientos en software y hardware. Conocimientos básicos en JAVA, Python, PowerDesigner, C++, C#, Oracle 
+            SQL y otros de edición, edición de vídeo, Photoshop y Excel.
+          </span> <br>
+          
+        </p>
+      </div>
+    </div>
+
+    <div class="px-48 py-0.5 ">
+      <h1 class="flex justify-center text-2xl font-bold tracking-widest text-amarillo none bg-grisO">
+        REFERENCIAS
+      </h1>
+  
+      <div class="px-8 py-5 container bg-grisC">
+        <p>
+          <span class="font-bold text-amarillo text-lg">REFERENCIA PERSONAL:</span> <span class="font-medium text-gray-800 text-lg">Janeth Llantén (Ceo Pintucasas) - cel: +57 316 4438416 </span> <br>
+        </p>
+      </div>
+    </div>
+
+    <div class="px-48 py-0.5 ">
+      <h1 class="flex justify-center text-2xl font-bold tracking-widest text-amarillo none bg-grisO">
+        CONTÁCTAME
+      </h1>
+  
+      <div class="px-8 py-5 container bg-grisC">
+        <p>
+          <span class="font-bold text-amarillo text-lg">TELÉFONO:</span> <span class="font-medium text-gray-800 text-lg"> +57 3184550429</span> <br>
+          <span class="font-bold text-amarillo text-lg">CORREO:</span> <span class="font-medium text-gray-800 text-lg"> jsbonilla@unicauca.edu.co </span> <br> <br> 
+        </p>
+
+        <div class="flex items-center justify-center ">
+            
+          <form class="w-full max-w-lg flex flex-col ">
+            <div class="flex flex-wrap -mx-3 mb-6 flex ">
+              <div class="w-full px-3 ">
+                <label class="font-bold text-amarillo text-lg">NOMBRE:</label>
+                <input class=" appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Persona">
+              </div>
+            </div>
+
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full px-3">
+                <label class="font-bold text-amarillo text-lg">E-MAIL:</label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" placeholder="example@gmail.com">
+              </div>
+            </div>
+
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full px-3">
+                <label class="font-bold text-amarillo text-lg">MENSAJE:</label>
+                <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
+              </div>
+            </div>
+            <div class="flex items-center justify-center ">
+              <button class=" shadow bg-grisO hover:bg-black focus:shadow-outline focus:outline-none text-amarillo font-bold py-2 px-4 rounded" type="button">ENVIAR
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  
+    
+  </div>
+
+</body>
+</html>
